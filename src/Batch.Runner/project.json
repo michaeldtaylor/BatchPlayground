@@ -1,0 +1,32 @@
+{
+  "userSecretsId": "aspnet5-Batch.Console-20151002115357",
+  "version": "1.0.0-*",
+  "description": "Batch Console Application",
+  "authors": [ "Michael Taylor" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "Azure.Batch": "2.0.2",
+    "WindowsAzure.Storage": "6.0.0",
+    "Microsoft.Framework.Configuration.EnvironmentVariables": "1.0.0-beta7",
+    "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta6",
+    "System.Linq": "4.0.0-*",
+    "Microsoft.Azure.Management.Batch": "1.4.0",
+    "Microsoft.Framework.Configuration.UserSecrets": "1.0.0-beta7"
+  },
+
+  "commands": {
+    "Batch.Console": "Batch.Runner"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "Microsoft.Framework.Configuration": "1.0.0-beta7",
+        "Microsoft.Framework.Configuration.Json": "1.0.0-beta7"
+      }
+    }
+  }
+}

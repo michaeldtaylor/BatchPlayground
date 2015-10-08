@@ -1,0 +1,13 @@
+﻿{
+  "AppSettings": {
+    "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=batchmdt;AccountKey=[AccountKey]",
+    "BatchAccountUrl": "https://[BatchAccountName].northeurope.batch.azure.com",
+    "BatchAccountName": "[BatchAccountName]",
+    "BatchKey": "[BatchKey]"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\MSSQLLocalDB;Database=BatchPlayground;Trusted_Connection=True;"
+    }
+  }
+}
