@@ -1,6 +1,6 @@
 ﻿{
   "AppSettings": {
-    "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=batchmdt;AccountKey=[AccountKey]",
+    "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=[StorageAccuntName];AccountKey=[StorageAccountKey]",
     "BatchAccountUrl": "https://[BatchAccountName].northeurope.batch.azure.com",
     "BatchAccountName": "[BatchAccountName]",
     "BatchKey": "[BatchKey]"
